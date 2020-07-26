@@ -1,0 +1,31 @@
+{
+  "name": "mars-photos-api",
+  "version": "1.0.0",
+  "description": "mars photo api app",
+  "main": "index.js",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatDeveloper66/mars-photos-api.git"
+  },
+  "keywords": [
+    "mars",
+    "photos",
+    "nasa",
+    "api"
+  ],
+  "author": "Adam Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatDeveloper66/mars-photos-api/issues"
+  },
+  "homepage": "https://github.com/GreatDeveloper66/mars-photos-api#readme"
+}
