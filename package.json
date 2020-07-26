@@ -8,6 +8,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "body-parser": "^1.19.0",
+    "braces": "^3.0.2",
     "cors": "^2.8.5",
     "cowsay": "^1.4.0",
     "create-react-app": "^3.4.1",
