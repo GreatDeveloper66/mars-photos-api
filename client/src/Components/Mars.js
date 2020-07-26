@@ -1,9 +1,7 @@
 import React, { Component, useState } from 'react'
 import { Row, Container, Col, Form, Button, Image } from 'react-bootstrap'
-//import { URL } from './EnvVars'
+import { URL } from './EnvVars'
 import fetch from 'isomorphic-fetch'
-
-const URL = process.env.REACT_APP_APIURL
 
 export default function Mars() {
     const [ camera, setCamera ] = useState('FHAZ')
