@@ -66,8 +66,6 @@ function App() {
     <Router>
       <Switch>
         <Route exact path ='/' component={ Mars } />
-        //<Route exact path = '/Register' component={ Register } />
-        //<Route exact path = '/SignIn' component= { SignIn } />
       </Switch>
     </Router>
   );
