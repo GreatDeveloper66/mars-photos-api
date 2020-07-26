@@ -15,7 +15,8 @@
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
     "express": "^4.17.1",
-    "g": "^2.0.1"
+    "g": "^2.0.1",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {},
   "scripts": {
