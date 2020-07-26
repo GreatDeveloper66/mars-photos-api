@@ -4,9 +4,11 @@
   "description": "mars photo api app",
   "main": "index.js",
   "dependencies": {
-    "cowsay": "^1.4.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "cowsay": "^1.4.0",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "g": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
