@@ -1,3 +1,4 @@
+/*
 import React, { Component } from 'react'
 import './App.css'
 class App extends Component {
@@ -45,4 +46,31 @@ render() {
     )
   }
 }
+export default App
+
+*/
+
+
+
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Mars from './Components/Mars'
+//import Register from './Components/Register'
+//import SignIn from './Components/SignIn'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route exact path ='/' component={ Mars } />
+        //<Route exact path = '/Register' component={ Register } />
+        //<Route exact path = '/SignIn' component= { SignIn } />
+      </Switch>
+    </Router>
+  );
+}
+
 export default App
